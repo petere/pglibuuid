@@ -12,3 +12,5 @@ Examples:
 
 See [uuid_generate(3)](http://linux.die.net/man/3/uuid_generate) for
 details on these functions.
+
+[![Build Status](https://secure.travis-ci.org/petere/pglibuuid.png)](http://travis-ci.org/petere/pglibuuid)
