@@ -2,7 +2,7 @@ PG_CONFIG ?= pg_config
 
 MODULE_big = libuuid
 OBJS = libuuid.o
-SHLIB_LINK += -luuid
+SHLIB_LINK += $(if $(filter darwin,$(PORTNAME)),,-luuid)
 
 EXTENSION = libuuid
 DATA = libuuid--1.0.sql
